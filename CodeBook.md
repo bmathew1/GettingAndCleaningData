@@ -22,11 +22,9 @@ UCI HAR Dataset
 	features.txt
 	features_info.txt  
 	./test:  
-		Inertial Signals  
 		X_test.txt
 		subject_test.txt
 		y_test.txt
-
 		./test/Inertial Signals:  
 			body_acc_x_test.txt  
 			body_acc_y_test.txt  
@@ -37,8 +35,7 @@ UCI HAR Dataset
 			total_acc_x_test.txt  
 			total_acc_y_test.txt  
 			total_acc_z_test.txt  
-	./train:  
-		Inertial Signals  
+	./train:
 		X_train.txt
 		subject_train.txt
 		y_train.txt
