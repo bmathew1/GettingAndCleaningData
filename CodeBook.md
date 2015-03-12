@@ -39,9 +39,9 @@ UCI HAR Dataset
 			total_acc_z_test.txt  
 	./train:  
 		Inertial Signals  
-		**X_train.txt**
-		**subject_train.txt**
-		**y_train.txt**
+		X_train.txt
+		subject_train.txt
+		y_train.txt
 		./train/Inertial Signals:
 			body_acc_x_train.txt
 			body_acc_y_train.txt
