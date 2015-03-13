@@ -1,4 +1,4 @@
-# Coursera - Getting and Cleaning Data Course 
+#Getting and Cleaning Data Course 
 ## Course Project Code Book
 
 This file describes the details of:  
