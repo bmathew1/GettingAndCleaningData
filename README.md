@@ -23,7 +23,7 @@ This file explains how the **run_analysis.R** script can be used. You will need:
 
 4) Source the code into the **R** environment - **source("run_analysis.R")**.
 
-5) Execute the script - *run_analysis()*. Alternatively you can pass in the locaction of the data folder location; example *run_analysis("/User/name/project/UCI HAR Dataset")  
+5) Execute the script - **run_analysis()**. Alternatively you can pass in the locaction of the data folder location; example **run_analysis("/User/name/project/UCI HAR Dataset")**  
 
 5) You should see an output similar to the following:  
 
@@ -45,11 +45,13 @@ This file explains how the **run_analysis.R** script can be used. You will need:
 
 ```
 
-5) Now you should have a data frame called **tidyOutput** in your R environment. You can get some summary information using:
+5) Now you should have a data frame called **tidyOutput** in your R environment.
 
-6) A text file in the current working directory called **tidyData.txt** will be created. 
+6) A text file in the current working directory called **tidyData.txt** will be created.  
 
-###sessionInfo()
+###Shown below is the details of the environment (using sessioninfo function in R) in which the script was developed and verified
+
+sessionInfo()
 R version 3.1.2 (2014-10-31)  
 Platform: i386-w64-mingw32/i386 (32-bit)  
   
