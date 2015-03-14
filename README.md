@@ -52,7 +52,7 @@ This file explains how the **run_analysis.R** script can be used. You will need:
 #### Environment details  
 Shown below is the details of the environment (using sessioninfo function in R) in which the script was developed and verified
 
-sessionInfo()
+sessionInfo()  
 R version 3.1.2 (2014-10-31)  
 Platform: i386-w64-mingw32/i386 (32-bit)  
   
