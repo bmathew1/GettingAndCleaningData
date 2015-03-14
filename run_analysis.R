@@ -86,7 +86,7 @@ getReadableFeatureNames <- function(featureNames) {
         featureNames <- sub("^t", "time.", featureNames)
         featureNames <- sub("^f", "frequency.", featureNames)
         featureNames <- gsub("[Bb]ody", "body.", featureNames)
-        featureNames <- sub("tBody", "time.body.", featureNames)
+        featureNames <- sub("tbody", "time.body", featureNames)
         featureNames <- gsub("[Gg]yro", "Gyro.", featureNames)
         featureNames <- gsub("[Jj]erk", "jerk.", featureNames)
         featureNames <- gsub("[Aa]ngle", "angle.", featureNames)

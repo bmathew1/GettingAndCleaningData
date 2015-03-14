@@ -1,4 +1,4 @@
-#Getting and Cleaning Data Course 
+# Getting and Cleaning Data Course 
 ## Course Project Code Book
 
 This file describes the details of:  
@@ -61,13 +61,21 @@ Please read the README file among the data files for detailed view on the input 
 - Reads Activity names (what activity does each of the labels mean) into the data frame from activity_labels.txt and adds them into each observation based on the labels
 - Extracts only the mean and standard deviation features
 - Renames the features with descreptive names
-- Creates a new data set with the mean of each of the feature extracted in the previous step and writes it to a file called **tidyData.txt**  
+- Creates a new data set with the **mean** of each of the features extracted in the previous steps and writes it to a file called **tidyData.txt**  
+
+#### Naming of features in the output  
+The features are renamed using the following steps  
+* all words are separated by '.'  
+* all words except 'Gyro' and 'Acc' (and others mentioned later) are lower case  
+* segments like 'tBody' and 'fBody' are expanded to 'time.body' and 'frequency.body'  
+* 'std' for standard deviation is converted to 'stdev'  
+* 'X', 'Y' and 'Z' are changed to 'Xaxis', 'Yaxis' and 'Zaxis' respectively  
 
 ###Output
-The output file **tidyData.txt** contains 180 rows and 88 columns. The output as a data frame is also also stored in the R environment as **tidyOutput**
+The output file **tidyData.txt** contains 180 rows and 88 columns. The output as a data frame is also also stored in the R environment as **tidyOutput**  
 
 Column names in the output file are:  
-[1] "activity.label"                             
+ [1] "activity.label"                             
  [2] "subject"                                    
  [3] "time.body.Acc.mean.Xaxis"                   
  [4] "time.body.Acc.mean.Yaxis"                   
@@ -148,11 +156,10 @@ Column names in the output file are:
 [79] "frequency.body.body.Gyro.jerk.mag.mean"     
 [80] "frequency.body.body.Gyro.jerk.mag.stdev"    
 [81] "frequency.body.body.Gyro.jerk.mag.mean.freq"  
-[82] "angle.tbody.Acc.mean.gravity"               
-[83] "angle.tbody.Acc.jerk.mean.gravity.mean"     
-[84] "angle.tbody.Gyro.mean.gravity.mean"         
-[85] "angle.tbody.Gyro.jerk.mean.gravity.mean"    
+[82] "angle.time.body.Acc.mean.gravity"           
+[83] "angle.time.body.Acc.jerk.mean.gravity.mean"  
+[84] "angle.time.body.Gyro.mean.gravity.mean"     
+[85] "angle.time.body.Gyro.jerk.mean.gravity.mean"  
 [86] "angle.Xaxis.gravity.mean"                   
 [87] "angle.Yaxis.gravity.mean"                   
-[88] "angle.Zaxis.gravity.mean"
-
+[88] "angle.Zaxis.gravity.mean"  
