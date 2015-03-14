@@ -49,7 +49,8 @@ This file explains how the **run_analysis.R** script can be used. You will need:
 
 6) A text file in the current working directory called **tidyData.txt** will be created.  
 
-###Shown below is the details of the environment (using sessioninfo function in R) in which the script was developed and verified
+#### Environment details  
+Shown below is the details of the environment (using sessioninfo function in R) in which the script was developed and verified
 
 sessionInfo()
 R version 3.1.2 (2014-10-31)  
