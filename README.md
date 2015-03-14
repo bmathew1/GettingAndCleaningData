@@ -1,9 +1,9 @@
-## Coursera - Getting and Cleaning Data Course
+## Getting and Cleaning Data Course
 
 ### Overview:
 
 This file explains how the **run_analysis.R** script can be used. You will need:  
-  - **R** and **[RStudio]** already installed in your computer, and
+  - **R** installed in your computer, and
   - Connection to the internet, as it may need to download some packages.
 
 ### Version:
@@ -15,12 +15,11 @@ This file explains how the **run_analysis.R** script can be used. You will need:
 1) Open **R**.  
 2) Set the working directory to where the code (run_analysis.R) and the data folder is located.
 
-* Use **getwd()** to verify the current working directory.   
-* Use **setwd("...")** to set up the current working directory.   
+* Use **getwd()** and **setwd("...")** to check and set the current working directory.      
 
-3) In the working directory you should have the following:  
-* **UCI HAR Dataset** - Directory  
-* **run_analysis.R** - A ".R" script that will be executed to generate the **tidy data**. 
+3) The following files/folders should be in the working directory:  
+* **UCI HAR Dataset** - Directory where the input date resides
+* **run_analysis.R** - script to be executed   
 
 4) Source the code into the **R** environment - **source("run_analysis.R")**.
 
@@ -47,20 +46,9 @@ This file explains how the **run_analysis.R** script can be used. You will need:
 ```
 
 5) Now you should have a data frame called **tidyOutput** in your R environment. You can get some summary information using:
-```
-   dim(tidyOutput)
-   str(tidyOutput)
-   summary(tidyOutput)
-``` 
 
-6) A flatfile in the current working directory called **tidyData.txt** will be created. to load and verify it execute:  
+6) A text file in the current working directory called **tidyData.txt** will be created. 
 
-```
-   df <- read.table( "tidyData.txt" , header = TRUE , sep = " " )
-   dim( df )
-   str( df )
-   summary( df )
-```
 ###sessionInfo()
 R version 3.1.2 (2014-10-31)  
 Platform: i386-w64-mingw32/i386 (32-bit)  
