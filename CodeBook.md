@@ -12,42 +12,21 @@ In order to run the code you will need:
 - Connection to the internet, if you need to download any of the packages.  
 
 ### Data:  
-The data used in the assessment is downloaded from the course project website. The file structure of the downloaded data files is shown below. The files used in the project are shown with '<-' after the name.
+The data used in the assessment is downloaded from the course project website. The folder/file structure of the just the files used is shown below.
  
 ```
 UCI HAR Dataset
 	README.txt  
-	activity_labels.txt <-
-	features.txt <-
-	features_info.txt  
+	activity_labels.txt  
+	features.txt  
 	./test:  
-		X_test.txt <-
-		subject_test.txt <-
-		y_test.txt <-
-		./test/Inertial Signals:  
-			body_acc_x_test.txt  
-			body_acc_y_test.txt  
-			body_acc_z_test.txt  
-			body_gyro_x_test.txt  
-			body_gyro_y_test.txt  
-			body_gyro_z_test.txt  
-			total_acc_x_test.txt  
-			total_acc_y_test.txt  
-			total_acc_z_test.txt  
+		X_test.txt   
+		subject_test.txt   
+		y_test.txt   
 	./train:
-		X_train.txt <-
-		subject_train.txt <-
-		y_train.txt <-
-		./train/Inertial Signals:
-			body_acc_x_train.txt
-			body_acc_y_train.txt
-			body_acc_z_train.txt
-			body_gyro_x_train.txt
-			body_gyro_y_train.txt
-			body_gyro_z_train.txt
-			total_acc_x_train.txt
-			total_acc_y_train.txt
-			total_acc_z_train.txt
+		X_train.txt   
+		subject_train.txt   
+		y_train.txt   
 ```
 
 Please read the README file among the data files for detailed view on the input data.  
